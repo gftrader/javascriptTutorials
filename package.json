@@ -1,0 +1,30 @@
+{
+  "name": "javascript-tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "karma-htmlfile-reporter": "^0.3.4",
+    "karma-jasmine": "^1.0.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gftrader/javascriptTutorials.git"
+  },
+  "author": "Gage Trader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gftrader/javascriptTutorials/issues"
+  },
+  "homepage": "https://github.com/gftrader/javascriptTutorials#readme"
+}
