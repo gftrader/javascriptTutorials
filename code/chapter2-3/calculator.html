@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <style type="text/css">
+            .calculator { padding: 1em; width: 200px; }
+            input { width: 200px; height: 50px; }
+            button { height: 50px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simple Calculator</h1>
+            <div class="calculator">
+                <div class="row"><input type="text" disabled="disabled" /></div>
+                <div class="row"><button type="button" class="btn btn-default col-xs-9">Clear</button><button type="button" class="btn btn-default col-xs-3">/</button></div>
+                <div class="row"><button type="button" class="btn btn-default col-xs-3">7</button><button type="button" class="btn btn-default col-xs-3">8</button><button type="button" class="btn btn-default col-xs-3">9</button><button type="button" class="btn btn-default col-xs-3">*</button></div>
+                <div class="row"><button type="button" class="btn btn-default col-xs-3">4</button><button type="button" class="btn btn-default col-xs-3">5</button><button type="button" class="btn btn-default col-xs-3">6</button><button type="button" class="btn btn-default col-xs-3">-</button></div>
+                <div class="row"><button type="button" class="btn btn-default col-xs-3">1</button><button type="button" class="btn btn-default col-xs-3">2</button><button type="button" class="btn btn-default col-xs-3">3</button><button type="button" class="btn btn-default col-xs-3">+</button></div>
+                <div class="row"><button type="button" class="btn btn-default col-xs-6">0</button><button type="button" class="btn btn-default col-xs-3">.</button><button type="button" class="btn btn-default col-xs-3">=</button></div>
+            </div>
+            <h2>Requirements</h2>
+            <ul>
+                <li>When pressed, each numeric button should display what was pressed in the grey textbox.
+                    <ul>
+                        <li>The clear button should display nothing in the grey textbox.</li>
+                        <li>The equals button should display the calculated result.</li>
+                    </ul>
+                </li>
+                <li>Each button press should store the value somehow so that the result can be evaluated by the math.js library when the = button is pressed.</li>
+            </ul>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+        <script type="text/javascript">
+            //enter javascript here
+        </script>
+    </body>
+</html>
